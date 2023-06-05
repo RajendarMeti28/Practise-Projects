@@ -1,0 +1,5 @@
+package com.rajendar.dto;
+
+public class Student {
+
+}

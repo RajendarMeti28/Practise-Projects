@@ -1,0 +1,31 @@
+package com.rajendar.dao;
+
+import com.rajendar.dto.Student;
+
+public class StudentDaoImpl implements IStudentDao {
+
+	@Override
+	public String saveStudent(Student student) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String updateStudent(Student student) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String deleteStudentById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getStudentById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

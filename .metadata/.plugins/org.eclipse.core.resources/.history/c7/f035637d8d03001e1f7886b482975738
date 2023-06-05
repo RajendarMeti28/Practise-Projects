@@ -1,0 +1,25 @@
+package com.rajendar.factory;
+
+import com.rajendar.controller.IStudentController;
+import com.rajendar.controller.StudentControllerImpl;
+
+public class StudentFactory {
+	
+	private  static IStudentController stdController = null;
+	
+	private StudentFactory() {
+		
+	}
+	
+	public static IStudentController getStudentController() {
+		try {
+			if(stdController==null) {
+				stdController = new StudentControllerImpl();
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return stdController;
+	}
+
+}

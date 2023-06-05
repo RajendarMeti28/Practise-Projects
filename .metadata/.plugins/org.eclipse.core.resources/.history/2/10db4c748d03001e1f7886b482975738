@@ -1,0 +1,19 @@
+package com.rajendar.util;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class jdbcUtil {
+	
+	private static Connection conn;
+	
+	public static Connection getJdbcConnection() {
+		
+		String url = "jdbc:mysql://localhost:3306/spring";
+		String username ="root";
+		String password="root";
+		conn = DriverManager.getConnection(url,username,password);
+		return conn;
+	}
+
+}
