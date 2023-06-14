@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="com.rajendar.dto.Student"/>
     <fullyQualifiedTypeName name="com.rajendar.service.IStudentService"/>
     <fullyQualifiedTypeName name="com.rajendar.factory.StudentFactory"/>
     <fullyQualifiedTypeName name="com.rajendar.dao.IStudentDao"/>
     <fullyQualifiedTypeName name="com.rajendar.util.jdbcUtil"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.productApp.factory.ProductFactory"/>
+    <fullyQualifiedTypeName name="com.productApp.dao.IProductDao"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="com.productApp.util.JdbcUtil"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
 </qualifiedTypeNameHistroy>
